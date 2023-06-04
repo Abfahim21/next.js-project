@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link'
 import React from 'react'
 import styles from './navbar.module.css'
@@ -49,8 +50,10 @@ const Navbar = () => {
           )
         )}
         <button className={styles.logout} onClick={()=>{
-          console.log("logged Out")
-        }}>Logout</button>
+          console.log("logged Out");
+        }}>
+          Logout
+        </button>
 
       </div>
     </div>
