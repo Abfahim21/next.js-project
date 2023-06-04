@@ -3,7 +3,10 @@ import styles from './page.module.css'
 
 const About = () => {
   return (
-    <div className={styles.container}>This is About</div>
+    <div className={styles.container}>
+      <div className={styles.imgContainer}></div>
+      <div className={styles.textContainer}></div>
+    </div>
   )
 }
 
