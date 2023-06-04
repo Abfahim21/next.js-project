@@ -14,14 +14,11 @@
 
 .img {
   width: 100%;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
 }
 
 .title {
-
-}
-
-.desc {
-
+  font-style: 72px;
+  background: linear-gradient(to bottom, #194c33), #333;
 }
