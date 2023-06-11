@@ -30,13 +30,3 @@
   font-size: 22px;
   font-weight: 300;
 }
-
-.button {
-  color: white;
-  padding: 20px;
-  cursor: pointer;
-  border: none;
-  background: #194c33;
-  border-radius: 10px;
-  width: max-content;
-}

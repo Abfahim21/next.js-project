@@ -1,13 +1,14 @@
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
+import Button from '@/components/button/Button'
 
 const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image src="/pexels.jpg" fill={true} alt='pexels' className={styles.img}/>
-        <div className="imgText">
+        <Image src='/pexels-1.jpg' fill={true} className={styles.img}/>
+        <div className={styles.imgText}>
           <h1 className={styles.imgTitle}>Image main Text</h1>
           <p className={styles.imgDesc}>Here are some texts about this image</p>
         </div>
@@ -32,6 +33,8 @@ const About = () => {
             quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
             sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
             recusandae alias error harum maxime adipisci amet laborum. Perspiciatis </p>
+            <br />
+            <Button url='/contact' text='Contact'/>
         </div>
       </div>
     </div>
