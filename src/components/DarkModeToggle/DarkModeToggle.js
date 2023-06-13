@@ -1,14 +1,17 @@
-import React from 'react'
+'use client'
+
+import React, { useContext } from 'react'
 import styles from './DarkModeToggle.module.css'
-import { ImSun } from "react-icons/im";
-import { LuMoon } from "react-icons/lu";
+import { ThemeContext } from '../../context/ThemeContext';
 
 const DarkModeToggle = () => {
+    const {toggle, mode} = useContext(ThemeContext);
   return (
-    <div className={styles.container}>
-        <div className={styles.icon}>D{ImSun}</div>
-        <div className={styles.icon}>L{LuMoon}</div>
-        <div className={styles.ball}></div>
+    <div className={styles.container} onClick={toggle}>
+        <div className={styles.icon}>L</div>
+        <div className={styles.icon}>D</div>
+        <div className={styles.ball} style={mode === 'light'? {left:"2px"} : {right:"2px"} }>
+        </div>
     </div>
   )
 }
