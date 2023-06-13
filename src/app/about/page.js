@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image src='/pexels-1.jpg' fill={true} className={styles.img} alt='pexels'/>
+        <Image src='/pexels-1.jpg' fill={true} className={styles.img} alt='Image of tree and birds'/>
         <div className={styles.imgText}>
           <h1 className={styles.imgTitle}>Image main Text</h1>
           <p className={styles.imgDesc}>Here are some texts about this image</p>
