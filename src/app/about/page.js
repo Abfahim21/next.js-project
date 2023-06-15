@@ -32,7 +32,7 @@ const About = () => {
             tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
             quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
             sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-            recusandae alias error harum maxime adipisci amet laborum. Perspiciatis </p>
+            recusandae alias error harum maxime adipisci amet laborum ahjsf js. Perspiciatis </p>
             <br />
             <Button url='/contact' text='Contact'/>
         </div>
